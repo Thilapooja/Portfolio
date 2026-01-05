@@ -10,8 +10,8 @@
 //   const [summary, setSummary] = useState("");
 //   const generateSummary = () => {
 //     const developer = {
-//       name: "Rithiha S K",
-//       phone: "9876543210",
+//       name: "Thila Pooja K",
+//       phone: "6380577896",
 //       email: "rithiha.s.k@gmail.com",
 //       experience: "2+ years",
 //       role: "Full Stack Developer"
@@ -279,8 +279,8 @@
 //               </div>
 //               <pre className="text-left">
 //                 <code>{`const developer = {
-//   name: "Rithiha S K",
-//   phone: "9876543210",
+//   name: "Thila Pooja K",
+//   phone: "6380577896",
 //   email: "rithiha.s.k@gmail.com",
 //   experience: "2+ years",
 //   role: "Full Stack Developer"
@@ -323,10 +323,10 @@ const About = ({ hideFooter = false }: { hideFooter?: boolean }) => {
 
   const generateSummary = () => {
     const developer = {
-      name: "Rithiha S K",
-      phone: "9876543210",
-      email: "rithiha.s.k@gmail.com",
-      experience: "2+ years",
+      name: "Thila Pooja K",
+      phone: "6380577896",
+      email: "thilapooja18@gmail.com",
+      experience: "Fresher",
       role: "Software Developer",
     };
 
@@ -360,7 +360,7 @@ const About = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                 <div className="aspect-square rounded-lg bg-muted overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-xl">
                     <img
-                      src="/Media (1).jpg"
+                      src="/Graduation_pic.jpeg"
                       alt="Profile"
                       className="w-full h-full object-cover"
                     /></div>
@@ -480,7 +480,7 @@ const About = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                   <Button className="rounded-full px-6">Get In Touch</Button>
                 </Link>
                 <a
-                  href="/public/Rithiha_S_K_Resume.pdf"
+                  href="/public/Thila_Pooja_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -513,10 +513,10 @@ const About = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               </div>
               <pre className="text-left">
                 <code>{`const developer = {
-  name: "Rithiha S K",
-  phone: "9876543210",
-  email: "rithiha.s.k@gmail.com",
-  experience: "2+ years",
+  name: "Thila Pooja K",
+  phone: "6380577896",
+  email: "thilapooja18@gmail.com",
+  experience: "Fresher",
   role: "Software Developer"
 };
 

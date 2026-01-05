@@ -19,15 +19,15 @@ const Projects = ({ hideFooter = false }: { hideFooter?: boolean }) => {
 
       id: "project1",
 
-      title: "  Inventory Management System",
+      title: "  Binge Watch",
 
-      description: "A full-featured game library platform allowing users to browse, search, and manage a collection of games in a modern website with authentication.",
+      description: "A Netflix clone website that fetches and displays the latest movies,series using an external API.Clicking on any movie plays its YouTube trailer, providing an interactive streaming experience.",
 
-      image: "https://zd-brightspot.s3.us-east-1.amazonaws.com/wp-content/uploads/2022/06/22143950/Inventory-with-Hardware-Slide-In.png",
+      image: "/public/netflixproject.png",
 
       categories: ["all", "web"],
 
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Authentication"],
+      technologies: ["React", "Bootstrap", "Javascript", "API Integration", "Authentication"],
 
     },
     {

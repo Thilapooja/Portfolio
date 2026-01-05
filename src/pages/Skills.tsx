@@ -399,7 +399,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
   const categories = [
     { id: "fullstack", label: "Full-Stack" },
     // { id: "ai", label: "Generative AI" },
-    { id: "devops", label: "DevOps & Other" },
+    // { id: "devops", label: "DevOps & Other" },
   ];
 
   const skillsByCategory = {
@@ -548,7 +548,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
     {/* VS Code */}
     <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
       <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
-        <img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code" className="w-6 h-6 mr-2" />
+        <img src="/public/vscodelogo.jpg" alt="VS Code" className="w-6 h-6 mr-2" />
         VS Code
       </div>
     </a>
@@ -568,12 +568,22 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
         Postman
       </div>
     </a>
+    <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+  <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
+    <img
+      src="/public/react.png"
+      alt="React Logo"
+      className="w-6 h-6 mr-2"
+    />
+    React
+  </div>
+</a>
 
-    {/* Figma */}
-    <a href="https://figma.com" target="_blank" rel="noopener noreferrer">
+    {/* Bootstrap */}
+    <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
       <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
-        <img src="https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png" alt="Figma Logo" className="w-6 h-6 mr-2" />
-        Figma
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow@2x.png" alt="Bootstrap Logo" className="w-6 h-6 mr-2" />
+        Bootstrap
       </div>
     </a>
 
@@ -592,7 +602,30 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
         GitHub
       </div>
     </a>
-
+    
+    {/* java */}
+    <a href="https://www.java.com/en/" target="_blank" rel="noopener noreferrer">
+  <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
+    <img
+      src="/public/java.png"
+      alt="Java Logo"
+      className="w-6 h-6 mr-2"
+    />
+    Java
+  </div>
+</a>
+{/* springboot */}
+<a href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer">
+  <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
+    <img
+      src="/public/springbootlogo1.jpg"
+      alt="Springboot Logo"
+      className="w-6 h-6 mr-2"
+    />
+    Springboot
+  </div>
+</a>
+  {/* mangodb */}
     <a href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer">
   <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
     <img
@@ -636,6 +669,17 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
     AWS
   </div>
 </a>
+<a href="https://www.pega.com/" target="_blank" rel="noopener noreferrer">
+  <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
+    <img
+      src="/public/pegalogo.png"
+      alt="Pega Logo"
+      className="w-6 h-6 mr-2"
+    />
+    Pega
+  </div>
+</a>
+
   </div>
   <div className="mt-6 text-sm text-gray-400 flex items-center">
     <svg

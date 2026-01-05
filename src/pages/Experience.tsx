@@ -57,11 +57,11 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-semibold">Software Developer</h3>
-                      <div className="text-primary font-medium">@ Sify Technologies Limited</div>
+                      <h3 className="text-xl font-semibold">Full Stack Developer Intern</h3>
+                      <div className="text-primary font-medium">@ Amdox Technologies</div>
                     </div>
                     <div className="px-4 py-1 bg-primary/10 rounded-full text-primary text-sm">
-                      2023 - Present
+                      2025 - Present
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
@@ -78,7 +78,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>Developed high-performing cloud-hosted applications using the MERN stack and AWS</span>
+                      <span>Developed high-performing cloud-hosted applications using the Java Full stack and AWS</span>
                     </li>
                     <li className="flex items-start">
                       <svg
@@ -126,7 +126,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>Guided and mentored a high-performing development team</span>
+                      <span>Worked on practical Java projects involving software development and application design.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -143,15 +143,15 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                   </div>
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="text-xl font-semibold">Research Intern</h3>
-                      <div className="text-primary font-medium">@ SSI Institutions</div>
+                      <h3 className="text-xl font-semibold">Web Developer Intern</h3>
+                      <div className="text-primary font-medium">@ Infotact Solutions</div>
                     </div>
                     <div className="px-4 py-1 bg-primary/10 rounded-full text-primary text-sm">
-                      2023
+                      2025
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    Worked on cutting-edge research projects in JAVA
+                    Worked on web development projects in MERN Stack
                   </p>
                   <ul className="mt-4 space-y-2">
                     <li className="flex items-start">
@@ -164,8 +164,44 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                       >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>Worked on practical Java projects involving software development and application design.</span>
+                      <span>Built full-stack web applications using the MERN stack</span>  
                     </li>
+                    <li className="flex items-start">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 mr-2 text-primary flex-shrink-0 mt-0.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                       <span>Skilled in creating RESTful APIs and connecting MongoDB databases</span> 
+                    </li>
+                    <li className="flex items-start">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 mr-2 text-primary flex-shrink-0 mt-0.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                       <span>Implemented responsive UI components using React</span>
+                    </li>
+                    <li className="flex items-start">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 mr-2 text-primary flex-shrink-0 mt-0.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                       <span>Learned best practices in code structure, testing, and deployment</span>
+                    </li>   
                     <li className="flex items-start">
                       {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -187,32 +223,32 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   {
-                    title: "AWS Certified Developer Associate",
-                    issuer: "Amazon Web Services",
+                    title: "Java Full Stack Developer",
+                    issuer: "Beesant Technologies",
+                    date: "2025",
+                    description: "Certified in developing end-to-end web applications using Java, Spring Boot, REST APIs, databases, and modern frontend technologies.",
+                    icon: "⚛️",
+                  },
+                  {
+                    title: "Pega Certified Senior System Architect (CSSA)",
+                    issuer: "Pega Systems",
+                    date: "2024",
+                    description: "Certified expert in designing, developing, and optimizing complex Pega applications with advanced architecture skills.",
+                    icon: "📊",
+                  },
+                  {
+                    title: "Pega Certified System Architect (CSA)",
+                    issuer: "Pega Systems",
                     date: "2023",
-                    description: "Professional-level certification for designing distributed applications.",
+                    description: "Certified in building and configuring Pega applications using low-code development best practices.",
                     icon: "☁️",
                   },
-                  // {
-                  //   title: "Professional Scrum Master I",
-                  //   issuer: "Scrum.org",
-                  //   date: "2022",
-                  //   description: "Certification for Scrum Masters and Agile practitioners.",
-                  //   icon: "📊",
-                  // },
-                  // {
-                  //   title: "TensorFlow Developer Certificate",
-                  //   issuer: "Google",
-                  //   date: "2022",
-                  //   description: "Demonstrates proficiency in building TensorFlow models.",
-                  //   icon: "🧠",
-                  // },
                   {
-                    title: "React & Redux Certification",
-                    issuer: "Udacity",
-                    date: "2021",
-                    description: "Advanced front-end development with React and Redux.",
-                    icon: "⚛️",
+                    title: "Java Foundations",
+                    issuer: "Oracle",
+                    date: "2023",
+                    description: "Certified in core Java fundamentals, including object-oriented programming, basic data structures, and application development.",
+                    icon: "🧠",
                   },
                 ].map((cert, index) => (
                   <motion.div
@@ -250,9 +286,9 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               <div className="space-y-8">
                 {[
                   {
-                    degree: "Bachelor of Engineering in Computer Science",
-                    institution: "Velammal College of Engineering and Technology, Anna University",
-                    date: "2019 - 2023",
+                    degree: "Bachelor of Engineering in Electronics and Communication Engineering",
+                    institution: "Sri Krishna College of Engineering and Technology",
+                    date: "2020 - 2024",
                     description: [
                       "Specialized in frontend development with a focus on UI/UX and responsive design",
                       "Proficient in React, JavaScript, and modern web technologies",
@@ -260,7 +296,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                     ],
                     achievements: [
                       "First Class with Distinction",
-                      "Active member of the Computer Science Club",
+                      "Active member of the Electronics and Communication Club",
                       "Participated in multiple hackathons and coding competitions",
                       "Completed industry-relevant certifications during the course"
                     ],
@@ -436,7 +472,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               Download Resume (PDF)
             </Button> */}
             <a
-              href="/public/Rithiha_S_K_Resume.pdf"
+              href="/public/Thila_Pooja_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -445,7 +481,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               </Button>
             </a>
             <a
-              href="/public/Rithiha_S_K_Resume.pdf"
+              href="/public/Thila_Pooja_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

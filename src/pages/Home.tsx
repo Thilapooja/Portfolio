@@ -29,7 +29,7 @@ const Home = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold">Rithiha S K</h1>
+              <h1 className="text-5xl md:text-7xl font-bold">Thila Pooja K</h1>
             </motion.div>
 
             <motion.div
@@ -37,7 +37,7 @@ const Home = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              <h2 className="text-2xl md:text-3xl text-primary">Frontend Developer</h2>
+              <h2 className="text-2xl md:text-3xl text-primary">Full Stack Developer</h2>
             </motion.div>
 
             <motion.div
@@ -47,7 +47,7 @@ const Home = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               className="text-lg text-muted-foreground"
             >
               <p>
-                Frontend Developer specializing in building responsive, high-performance web applications
+                Full Stack Devloper specializing in building responsive, high-performance web applications
                 using React and modern UI technologies. Passionate about clean code, intuitive user experiences, 
                 and scalable design systems.
               </p>
@@ -78,7 +78,7 @@ const Home = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               className="flex items-center space-x-4"
             >
               <p className="text-muted-foreground">Chennai, India</p>
-              <p className="text-muted-foreground">29.rithi@gmail.com</p>
+              <p className="text-muted-foreground">thilapooja18@gmail.com</p>
             </motion.div>
           </div>
 
@@ -94,7 +94,7 @@ const Home = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               <div className="absolute -inset-4 border-4 border-primary/20 rounded-full transform rotate-45 aspect-square" />
               <div className="relative rounded-full overflow-hidden border-4 border-primary/30 w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-purple-600 to-purple-900">
                 <img
-                  src="/Media (1).jpg"
+                  src="/Graduation_pic.jpeg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />

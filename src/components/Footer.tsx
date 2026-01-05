@@ -30,15 +30,15 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">GitHub</a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
+              <a href="https://github.com/Thilapooja" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">GitHub</a>
+              <a href="https://www.linkedin.com/in/thila-pooja/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Twitter</a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>© {currentYear} Rithiha S K. All rights reserved.</p>
+          <p>© {currentYear} Thila Pooja K. All rights reserved.</p>
         </div>
       </div>
     </footer>
