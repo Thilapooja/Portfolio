@@ -563,7 +563,7 @@ const Contact = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               <div className="bg-card border border-border rounded-xl p-6">
                 <h3 className="text-lg font-semibold mb-4">Let's Work Together</h3>
                 <p className="text-muted-foreground mb-4">
-                  I'm currently available for freelance work and full-time
+                  I'm currently available for full-time
                   positions in the software development field.
                 </p>
                 <div className="flex gap-3">

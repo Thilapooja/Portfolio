@@ -472,7 +472,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               Download Resume (PDF)
             </Button> */}
             <a
-              href="/public/Thila_Pooja_Resume.pdf"
+              href="/Thila_Pooja_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -481,7 +481,7 @@ const Experience = ({ hideFooter = false }: { hideFooter?: boolean }) => {
               </Button>
             </a>
             <a
-              href="/public/Thila_Pooja_Resume.pdf"
+              href="/Thila_Pooja_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

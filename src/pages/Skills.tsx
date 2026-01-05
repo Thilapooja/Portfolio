@@ -548,7 +548,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
     {/* VS Code */}
     <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
       <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
-        <img src="/public/vscodelogo.jpg" alt="VS Code" className="w-6 h-6 mr-2" />
+        <img src="/vscodelogo.jpg" alt="VS Code" className="w-6 h-6 mr-2" />
         VS Code
       </div>
     </a>
@@ -571,7 +571,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
     <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
   <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
     <img
-      src="/public/react.png"
+      src="/react.png"
       alt="React Logo"
       className="w-6 h-6 mr-2"
     />
@@ -607,7 +607,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
     <a href="https://www.java.com/en/" target="_blank" rel="noopener noreferrer">
   <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
     <img
-      src="/public/java.png"
+      src="/java.png"
       alt="Java Logo"
       className="w-6 h-6 mr-2"
     />
@@ -618,7 +618,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
 <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener noreferrer">
   <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
     <img
-      src="/public/springbootlogo1.jpg"
+      src="/springbootlogo1.jpg"
       alt="Springboot Logo"
       className="w-6 h-6 mr-2"
     />
@@ -672,7 +672,7 @@ const Skills = ({ hideFooter = false }: { hideFooter?: boolean }) => {
 <a href="https://www.pega.com/" target="_blank" rel="noopener noreferrer">
   <div className="bg-white/5 backdrop-blur-md rounded-lg p-3 flex items-center justify-center text-center transition-all duration-300 font-medium text-white text-sm hover:bg-white/10 hover:scale-105">
     <img
-      src="/public/pegalogo.png"
+      src="/pegalogo.png"
       alt="Pega Logo"
       className="w-6 h-6 mr-2"
     />

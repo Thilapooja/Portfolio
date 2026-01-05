@@ -245,7 +245,7 @@
 //                   <Button className="rounded-full px-6">Get In Touch</Button>
 //                 </Link>
 //                 <a
-//                   href="/public/Rithiha_S_K_Resume.pdf"
+//                   href="/Rithiha_S_K_Resume.pdf"
 //                   target="_blank"
 //                   rel="noopener noreferrer"
 //                 >
@@ -480,7 +480,7 @@ const About = ({ hideFooter = false }: { hideFooter?: boolean }) => {
                   <Button className="rounded-full px-6">Get In Touch</Button>
                 </Link>
                 <a
-                  href="/public/Thila_Pooja_Resume.pdf"
+                  href="/Thila_Pooja_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

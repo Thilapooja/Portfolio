@@ -23,7 +23,7 @@ const Projects = ({ hideFooter = false }: { hideFooter?: boolean }) => {
 
       description: "A Netflix clone website that fetches and displays the latest movies,series using an external API.Clicking on any movie plays its YouTube trailer, providing an interactive streaming experience.",
 
-      image: "/public/netflixproject.png",
+      image: "/netflixproject.png",
 
       categories: ["all", "web"],
 
